@@ -1,0 +1,283 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, section, nav, aside, .mainbody {display: block;}
+
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+header{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+}
+
+header .leftalign{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 55%;
+	float: left; 
+}
+
+.banner{
+	display: block;
+	height: auto;
+	margin-left: 0;
+	width: auto;
+	height: auto;
+}
+
+header .rightalign{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 40%;
+	float: right;
+}
+
+.rightalign .login{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+.rightalign .search{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+}
+
+.login li{
+	float: right;
+	text-decoration: none;
+	list-style-type: none;
+	padding:5px;
+}
+
+img{
+	max-width: 95%;
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+nav{
+	border-radius: 30px;
+}
+
+nav ul {
+	height: 20px;
+	padding: 10px;
+	margin: 0px;
+	background-color: #990000; 
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: "Times New Roman", Geneva, Tahoma;
+}
+
+nav a:link {
+	color: orange;
+	text-decoration: none;
+	padding: 18px;
+	position: relative;
+}
+
+nav a:visited {
+    text-decoration: underline;
+	color: #FFCCCC;
+}
+
+nav a:hover{
+	color: #6600CC; 
+	background-color: #FFFFFF;
+}
+
+nav a:active{
+	color: black; 
+	background-color: white;
+	font-weight: bold;
+}
+
+
+
+
+
+.mainbody aside{
+	float: none;
+	padding: 5%;
+	vertical-align: top;
+}
+
+.mainbody{
+	display: table;
+	margin: 1%;
+	width: 100%;
+}
+
+aside{
+	display: table-cell;
+	width: 25%;
+	background-color: #cc9933;
+	font-family: "Palatino", "Times New Roman", Trebuchet;
+	font-style: italic;
+	text-align: center;
+	margin: 2% auto;
+	text-indent: 2%;
+}
+
+section{
+	display: table-cell;
+	background-image: url("heartbackground.jpg"); 
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: "Comic Sans MS", "Times New Roman", Sans-Serif;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+p{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.tab {text-indent: 8%;}
+
+.textcenter {text-align: center;}
+
+h1{
+	margin: 0px;
+	font-size: 3.5rem;
+	color: #CC6600;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: Georgia, "Palatino", "Times New Roman", Arial, Sans-Serif;
+}
+
+h2{
+	margin: 0px;
+	font-size: 3.5rem;
+	color: #CC3333;
+	text-align: center;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: "Palatino", "Times New Roman", Sans-Serif;
+	text-decoration: none;
+}
+
+h3{
+	margin: 3%;
+	font-size: 1.5rem;
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: "Trebuchet", "Verdana", Sans-Serif;
+}
+
+h4{
+	margin: 3%;
+	font-size: 1.2rem;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Verdana", "Tahoma", Sans-Serif;
+}
+
+.announcement{
+	text-align: center;
+	color: black;
+	font-size: 3rem;
+	font-variant: small-caps;
+	font-family: "Comic Sans", Sans-Serif;
+}
+
+.plaintext{
+	text-align: left;
+	color: black;
+	font-size: 1.5rem;
+	font-family: "Times New Roman", Sans-Serif, Arial;
+}
+
+.referencetext{
+	text-align: left;
+	color: black;
+	font-size: .75rem;
+	font-style: italic;
+	font-family: "Times New Roman", Sans-Serif, Arial;
+}
+
+ul{
+	list-style-type: disc;
+}
+
+li{
+	text-align: left;
+	color: black;
+	font-size: 1.2rem;
+	font-family: "Times New Roman", Sans-Serif, Arial;
+}
+
+table.immunizationchart, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	clear: both;
+    font-size: .75rem;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 3%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+@media screen and (orientation: portrait) {
+	img.flushotimage{max-width: 90%;}
+}
+
+@media screen and (orientation: landscape) {
+	img.flushotimage{max-height: 90%;}
+}
+
+
+
+
+
+*/
