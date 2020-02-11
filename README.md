@@ -14,4 +14,4 @@ This was inspired by my children as I am always referring to several pages looki
 A website that provides information on a child's health, such as immunizations, growth curves, and more.  This site is great for anyone interested in reading about child health.
 
 ## Screenshot:
-![ChildHealthVitalSS] (HealthVitalAppSS.png)
+![ChildHealthVitalWebpage](HealthVitalAppSS.png)
